@@ -1,0 +1,273 @@
+* {
+	font-family: Lato, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	color: #939393;
+	transition: 1s cubic-bezier(.1, .9, .9, 1.5);
+}
+h1, h2, h3 {
+	font-weight: 600;
+}
+h1 {
+	color: #939393;
+	padding: 150px 40px 0;
+}
+.last-name {
+	font-weight: 300;
+	font-size: 28px;
+}
+.first-name {
+	font-weight: 600;
+}
+h1 span {
+	color: #F8BB10;
+	text-transform: uppercase;
+}
+.footers .block-right h1 {
+	padding: 20px 40px 0px;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.block-right h3 {
+	color: #727272;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-top: 40px;
+	color: #727272;
+	padding-bottom: 20px;
+}
+li {
+	display: inline-block;  /* элементы списка в строку */
+	margin: 20px;
+}
+.row ul {
+	font-size: 14px;
+	border-top: 1px inset #ececec;
+	text-align: left;
+}
+.headers {
+	display: flex;
+}
+.block-left {
+	background-color: #fcfcfc;
+	width: 30%;
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 0px;
+	text-align: right;
+}
+.photo-table {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img.avatar_img {
+	border-radius: 50%;
+	width: 100%;
+	max-width: 180px;
+}
+.headers .block-right {
+	font-size: 18px;
+	width: 69%;
+	display: inline-block;
+}
+.social img, .social-2 img {
+	width: 27px;
+	height: 27px;
+}
+.social {
+	float: right;
+}
+.social > div {
+	display: inline-block;
+}
+.clear {
+	clear: both;
+	margin-bottom: 260px;
+}
+.clear2 {
+	clear: both;
+}
+.row {
+	padding: 20px 40px 1px 0;
+}
+.container {
+	display: flex;
+}
+.container .block-left {
+	background-color: #f8f8f8;
+	width: 30%;
+	padding: 35px 40px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.container .block-right {
+	background-color: #fcfcfc;
+	width: 69%;
+	padding: 35px 40px;
+	display: inline-block;
+	font-size: 15px;
+}
+.photo h2 {
+	padding: 35px 40px;
+	text-align: right;
+}
+.copy {
+	display: flex;
+}
+.copy .block-left {
+	background-color: #fcfcfc;
+	text-align: right;
+	width: 30%;
+	padding: 60px 40px;
+}
+.copy .block-right {
+	display: inline-block;
+    overflow-x: auto;
+	width: 69%;
+    font-size: 15px;
+}
+.footers {
+	display: flex;
+	font-size: 0;
+}
+.footers .block-left {
+	vertical-align: bottom;
+	background-color: #f8f8f8;
+	display: inline-block;
+	width: 30%;
+	padding: 35px 40px;
+	text-align: right;
+}
+.footers .block-right {
+	background-color: #fcfcfc;
+	display: inline-block;
+	width: 69%;
+	font-size: 18px;
+}
+.row2 {
+	padding: 20px 40px 1px 0;
+	border-bottom: 1px inset #ececec;
+	margin-left: 40px;
+	margin-right: 60px;
+	font-size: 14px;
+}
+.famaly-2 {
+	text-align: left;
+}
+.html, .figma, .css3 {
+	display: inline-block;
+}
+.figma2 {
+	padding-left: 37px;
+}
+.number {
+	padding: 40px 10px 20px;
+	float: left;
+}
+.number-yellow {
+	margin-top: 0px;
+	color: #F8BB10;
+	font-weight: 600;
+	text-align: right;
+}
+/**/
+.main-block {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+.html, .css3, .figma {
+	width: 50%;
+} 
+.html5 li, .css li {
+	margin: 0;
+	line-height: 2;
+	display: block;
+}
+.fam_prof {
+	margin-bottom: 20px;
+}
+.profi p {
+	margin-bottom: 0;
+	padding-left: 40px;
+	font-size: 12px;
+	font-weight: 300;
+}
+.prof p {
+	padding-left: 40px;
+	font-size: 12px;
+	font-weight: 300;
+}
+.block-famaly .famaly {
+	padding-top: 125px;
+}
+.famaly h1 {
+	padding-top: 0;
+}
+.famaly {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 10%;
+}
+::-webkit-scrollbar {
+    width: 10px; /* ширина для вертикального скролла */
+    background-color: #f8f8f8;
+}
+/*ползунок*/
+::-webkit-scrollbar-thumb {
+    background-color: #F8BB10;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+
+@media (max-width: 660px) {
+	.main-block {
+		flex-direction: column;
+	}
+	.row2 {
+		margin: 0;
+	}	
+}
+@media (max-width: 641px) {
+	.row, .row2 {
+		display: inline;
+	}
+}
+@media (max-width: 565px) {
+	* {
+		transition: 1s ease-in-out;
+	}
+	.block-left, .block-right {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	.headers, .container, .copy, .footers {
+		display: unset;
+	}
+	.headers .block-right, .container .block-left,
+	.container .block-right, .copy .block-left, 
+	.copy .block-right, .footers .block-left, 
+	.footers .block-right {
+		width: 100%;
+	}
+	.container .block-left, .footers .block-left {
+		text-align: center;
+	}
+	.copy .block-left  {
+		background-color: #f8f8f8;;
+	}
+	.social {
+		padding: 35px;
+	}
+	.photo img {
+		margin: 30px 0;
+	}
+}
